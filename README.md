@@ -1,7 +1,7 @@
 # Notification System
 
 Install Instructions:
-- Pack ```Harris_Client``` into a PBO file with PboProject (I can do this for you and upload if you want)
+- Pack ```Harris_Client``` into a PBO file with PboProject (PBOManager works but ```Verify Signatures``` does not work with PBOManager-packed PBOs) (I can do this for you and upload if you want)
 - Pack ```Harris_Server``` into a PBO file with any PBO Tool (PBOManager or PBOProject)
 - Load the Client PBO on the Client mods and the Server Pbo on the Server Mods 
 
