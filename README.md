@@ -13,10 +13,17 @@ I would recommend deleting the things you do not want, I can do it for you if yo
 
 Although there may be some custom physical items in there that you may want to use.
 
-#### Setup Instructions:
+#### Setup Instructions 1:
 
 - Add ```[] call Harris_clientInit``` to init.sqf or ```initPlayerLocal.sqf```
-- ```fn_serverInit.sqf``` is called Automatically.
+- ```fn_serverInit.sqf``` is called Automatically.\
+
+#### Setup Instructions 2 (Mission Version):
+- Follow the same steps as 'Setup Instructions 1'
+- Add the Content of ```description.ext``` to the ```description.ext``` of your mission. Note: Your mission may already contain the code block ```class rscTitles {}``` or have a ```rscTitles.hpp``` included somewhere, if so, just add the multiple ```class NZF_Notifications``` configs to this place, as well as the ```include 'NZF_defines.hpp```
+- In File ```fn_Notifications.sqf``` repoint all of the .paa directories to the mission in the 'Notifications' folder, and do the same in the config for the dialogs that you are putting in your description.ext
+
+Note: I can do all of this for you a bit later but I may be having to go out soon, so can't guarantee I can do it before I levae.
 
 #### Use Instructions:
 
